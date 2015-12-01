@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "08FBAF6C1C012895002FA5C0"
-               BuildableName = "Attention Deficit.app"
-               BlueprintName = "Attention Deficit"
-               ReferencedContainer = "container:Attention Deficit.xcodeproj">
+               BuildableName = "Focus.app"
+               BlueprintName = "Focus"
+               ReferencedContainer = "container:Focus.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "08FBAF801C012896002FA5C0"
-               BuildableName = "Attention DeficitTests.xctest"
-               BlueprintName = "Attention DeficitTests"
-               ReferencedContainer = "container:Attention Deficit.xcodeproj">
+               BuildableName = "Focus.xctest"
+               BlueprintName = "FocusTests"
+               ReferencedContainer = "container:Focus.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "08FBAF8B1C012896002FA5C0"
-               BuildableName = "Attention DeficitUITests.xctest"
-               BlueprintName = "Attention DeficitUITests"
-               ReferencedContainer = "container:Attention Deficit.xcodeproj">
+               BuildableName = "Focus.xctest"
+               BlueprintName = "FocusUITests"
+               ReferencedContainer = "container:Focus.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "08FBAF6C1C012895002FA5C0"
-            BuildableName = "Attention Deficit.app"
-            BlueprintName = "Attention Deficit"
-            ReferencedContainer = "container:Attention Deficit.xcodeproj">
+            BuildableName = "Focus.app"
+            BlueprintName = "Focus"
+            ReferencedContainer = "container:Focus.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "08FBAF6C1C012895002FA5C0"
-            BuildableName = "Attention Deficit.app"
-            BlueprintName = "Attention Deficit"
-            ReferencedContainer = "container:Attention Deficit.xcodeproj">
+            BuildableName = "Focus.app"
+            BlueprintName = "Focus"
+            ReferencedContainer = "container:Focus.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "08FBAF6C1C012895002FA5C0"
-            BuildableName = "Attention Deficit.app"
-            BlueprintName = "Attention Deficit"
-            ReferencedContainer = "container:Attention Deficit.xcodeproj">
+            BuildableName = "Focus.app"
+            BlueprintName = "Focus"
+            ReferencedContainer = "container:Focus.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

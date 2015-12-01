@@ -1,0 +1,36 @@
+{
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "9CF6181E3789E3853840089C16D4B9FDDB9B31E2" : 0,
+    "473DC011D5A408641EFCA994F7CF93EBF3DE93A8" : 0,
+    "DF6669A87A6A5CB2A99B85009729DFE89619D606" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "E559350A-4063-4FDD-9D1B-CAB4222DEECA",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "9CF6181E3789E3853840089C16D4B9FDDB9B31E2" : "..\/ResearchKit",
+    "473DC011D5A408641EFCA994F7CF93EBF3DE93A8" : "..",
+    "DF6669A87A6A5CB2A99B85009729DFE89619D606" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Focus",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Focus.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/francescoperera\/MEPSDataAnalysis.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "473DC011D5A408641EFCA994F7CF93EBF3DE93A8"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ResearchKit\/ResearchKit.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9CF6181E3789E3853840089C16D4B9FDDB9B31E2"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/francescoperera\/Lab4ResearchKit.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "DF6669A87A6A5CB2A99B85009729DFE89619D606"
+    }
+  ]
+}

@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		086875051C076E7600BB1A8A /* MemoryTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086875041C076E7600BB1A8A /* MemoryTask.swift */; };
+		086D63DF1C06622F005605DB /* SurveyTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086D63DE1C06622F005605DB /* SurveyTask.swift */; };
+		086D63E81C06AE57005605DB /* railroads.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 086D63E71C06AE57005605DB /* railroads.jpg */; };
+		08A4F5161C0AB1B40054514F /* GoNoGoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A4F5151C0AB1B40054514F /* GoNoGoViewController.swift */; };
+		08D1668C1C0C1F60006B3E75 /* TaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D1668B1C0C1F60006B3E75 /* TaskViewController.swift */; };
+		08E6989F1C0BF84A008CAA32 /* green.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 08E6989E1C0BF84A008CAA32 /* green.jpeg */; };
 		08FBAF711C012896002FA5C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08FBAF701C012896002FA5C0 /* AppDelegate.swift */; };
 		08FBAF731C012896002FA5C0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08FBAF721C012896002FA5C0 /* ViewController.swift */; };
 		08FBAF761C012896002FA5C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08FBAF741C012896002FA5C0 /* Main.storyboard */; };
@@ -14,6 +20,10 @@
 		08FBAF7B1C012896002FA5C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08FBAF791C012896002FA5C0 /* LaunchScreen.storyboard */; };
 		08FBAF861C012896002FA5C0 /* Attention_DeficitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08FBAF851C012896002FA5C0 /* Attention_DeficitTests.swift */; };
 		08FBAF911C012896002FA5C0 /* Attention_DeficitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08FBAF901C012896002FA5C0 /* Attention_DeficitUITests.swift */; };
+		08FBAFA81C012F32002FA5C0 /* ResearchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08FBAFA51C012F1F002FA5C0 /* ResearchKit.framework */; };
+		08FBAFA91C012F32002FA5C0 /* ResearchKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 08FBAFA51C012F1F002FA5C0 /* ResearchKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		08FBAFAE1C0130BF002FA5C0 /* ConsentDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08FBAFAD1C0130BF002FA5C0 /* ConsentDocument.swift */; };
+		08FBAFB01C01362B002FA5C0 /* ConsentTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08FBAFAF1C01362B002FA5C0 /* ConsentTask.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,22 +41,66 @@
 			remoteGlobalIDString = 08FBAF6C1C012895002FA5C0;
 			remoteInfo = "Attention Deficit";
 		};
+		08FBAFA41C012F1F002FA5C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08FBAF9E1C012F1F002FA5C0 /* ResearchKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B183A5951A8535D100C76870;
+			remoteInfo = ResearchKit;
+		};
+		08FBAFA61C012F1F002FA5C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08FBAF9E1C012F1F002FA5C0 /* ResearchKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 86CC8E9A1AC09332001CCD89;
+			remoteInfo = ResearchKitTests;
+		};
+		08FBAFAA1C012F32002FA5C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08FBAF9E1C012F1F002FA5C0 /* ResearchKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = B183A4731A8535D100C76870;
+			remoteInfo = ResearchKit;
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		08FBAFAC1C012F32002FA5C0 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				08FBAFA91C012F32002FA5C0 /* ResearchKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		08FBAF6D1C012895002FA5C0 /* Attention Deficit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Attention Deficit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		086875041C076E7600BB1A8A /* MemoryTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoryTask.swift; sourceTree = "<group>"; };
+		086D63DE1C06622F005605DB /* SurveyTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurveyTask.swift; sourceTree = "<group>"; };
+		086D63E71C06AE57005605DB /* railroads.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = railroads.jpg; path = ../../../../../Desktop/railroads.jpg; sourceTree = "<group>"; };
+		08A4F5151C0AB1B40054514F /* GoNoGoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GoNoGoViewController.swift; path = ../GoNoGoViewController.swift; sourceTree = "<group>"; };
+		08D1668B1C0C1F60006B3E75 /* TaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskViewController.swift; sourceTree = "<group>"; };
+		08E6989E1C0BF84A008CAA32 /* green.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = green.jpeg; path = ../../../../../Desktop/green.jpeg; sourceTree = "<group>"; };
+		08FBAF6D1C012895002FA5C0 /* Focus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Focus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08FBAF701C012896002FA5C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		08FBAF721C012896002FA5C0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		08FBAF751C012896002FA5C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		08FBAF771C012896002FA5C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		08FBAF7A1C012896002FA5C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		08FBAF7C1C012896002FA5C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		08FBAF811C012896002FA5C0 /* Attention DeficitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Attention DeficitTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		08FBAF811C012896002FA5C0 /* Focus.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Focus.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		08FBAF851C012896002FA5C0 /* Attention_DeficitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Attention_DeficitTests.swift; sourceTree = "<group>"; };
 		08FBAF871C012896002FA5C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		08FBAF8C1C012896002FA5C0 /* Attention DeficitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Attention DeficitUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		08FBAF8C1C012896002FA5C0 /* Focus.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Focus.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		08FBAF901C012896002FA5C0 /* Attention_DeficitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Attention_DeficitUITests.swift; sourceTree = "<group>"; };
 		08FBAF921C012896002FA5C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08FBAF9E1C012F1F002FA5C0 /* ResearchKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ResearchKit.xcodeproj; path = ../../ResearchKit/ResearchKit.xcodeproj; sourceTree = "<group>"; };
+		08FBAFAD1C0130BF002FA5C0 /* ConsentDocument.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsentDocument.swift; sourceTree = "<group>"; };
+		08FBAFAF1C01362B002FA5C0 /* ConsentTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsentTask.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08FBAFA81C012F32002FA5C0 /* ResearchKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +132,7 @@
 		08FBAF641C012895002FA5C0 = {
 			isa = PBXGroup;
 			children = (
+				08FBAF9E1C012F1F002FA5C0 /* ResearchKit.xcodeproj */,
 				08FBAF6F1C012895002FA5C0 /* Attention Deficit */,
 				08FBAF841C012896002FA5C0 /* Attention DeficitTests */,
 				08FBAF8F1C012896002FA5C0 /* Attention DeficitUITests */,
@@ -87,9 +143,9 @@
 		08FBAF6E1C012895002FA5C0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				08FBAF6D1C012895002FA5C0 /* Attention Deficit.app */,
-				08FBAF811C012896002FA5C0 /* Attention DeficitTests.xctest */,
-				08FBAF8C1C012896002FA5C0 /* Attention DeficitUITests.xctest */,
+				08FBAF6D1C012895002FA5C0 /* Focus.app */,
+				08FBAF811C012896002FA5C0 /* Focus.xctest */,
+				08FBAF8C1C012896002FA5C0 /* Focus.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -98,11 +154,19 @@
 			isa = PBXGroup;
 			children = (
 				08FBAF701C012896002FA5C0 /* AppDelegate.swift */,
+				08D1668B1C0C1F60006B3E75 /* TaskViewController.swift */,
+				08A4F5151C0AB1B40054514F /* GoNoGoViewController.swift */,
 				08FBAF721C012896002FA5C0 /* ViewController.swift */,
+				086D63DE1C06622F005605DB /* SurveyTask.swift */,
+				086875041C076E7600BB1A8A /* MemoryTask.swift */,
+				08FBAFAD1C0130BF002FA5C0 /* ConsentDocument.swift */,
+				08FBAFAF1C01362B002FA5C0 /* ConsentTask.swift */,
 				08FBAF741C012896002FA5C0 /* Main.storyboard */,
 				08FBAF771C012896002FA5C0 /* Assets.xcassets */,
 				08FBAF791C012896002FA5C0 /* LaunchScreen.storyboard */,
 				08FBAF7C1C012896002FA5C0 /* Info.plist */,
+				08E6989E1C0BF84A008CAA32 /* green.jpeg */,
+				086D63E71C06AE57005605DB /* railroads.jpg */,
 			);
 			path = "Attention Deficit";
 			sourceTree = "<group>";
@@ -125,29 +189,40 @@
 			path = "Attention DeficitUITests";
 			sourceTree = "<group>";
 		};
+		08FBAF9F1C012F1F002FA5C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				08FBAFA51C012F1F002FA5C0 /* ResearchKit.framework */,
+				08FBAFA71C012F1F002FA5C0 /* ResearchKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		08FBAF6C1C012895002FA5C0 /* Attention Deficit */ = {
+		08FBAF6C1C012895002FA5C0 /* Focus */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 08FBAF951C012896002FA5C0 /* Build configuration list for PBXNativeTarget "Attention Deficit" */;
+			buildConfigurationList = 08FBAF951C012896002FA5C0 /* Build configuration list for PBXNativeTarget "Focus" */;
 			buildPhases = (
 				08FBAF691C012895002FA5C0 /* Sources */,
 				08FBAF6A1C012895002FA5C0 /* Frameworks */,
 				08FBAF6B1C012895002FA5C0 /* Resources */,
+				08FBAFAC1C012F32002FA5C0 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				08FBAFAB1C012F32002FA5C0 /* PBXTargetDependency */,
 			);
-			name = "Attention Deficit";
+			name = Focus;
 			productName = "Attention Deficit";
-			productReference = 08FBAF6D1C012895002FA5C0 /* Attention Deficit.app */;
+			productReference = 08FBAF6D1C012895002FA5C0 /* Focus.app */;
 			productType = "com.apple.product-type.application";
 		};
-		08FBAF801C012896002FA5C0 /* Attention DeficitTests */ = {
+		08FBAF801C012896002FA5C0 /* FocusTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 08FBAF981C012896002FA5C0 /* Build configuration list for PBXNativeTarget "Attention DeficitTests" */;
+			buildConfigurationList = 08FBAF981C012896002FA5C0 /* Build configuration list for PBXNativeTarget "FocusTests" */;
 			buildPhases = (
 				08FBAF7D1C012896002FA5C0 /* Sources */,
 				08FBAF7E1C012896002FA5C0 /* Frameworks */,
@@ -158,14 +233,14 @@
 			dependencies = (
 				08FBAF831C012896002FA5C0 /* PBXTargetDependency */,
 			);
-			name = "Attention DeficitTests";
+			name = FocusTests;
 			productName = "Attention DeficitTests";
-			productReference = 08FBAF811C012896002FA5C0 /* Attention DeficitTests.xctest */;
+			productReference = 08FBAF811C012896002FA5C0 /* Focus.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		08FBAF8B1C012896002FA5C0 /* Attention DeficitUITests */ = {
+		08FBAF8B1C012896002FA5C0 /* FocusUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 08FBAF9B1C012896002FA5C0 /* Build configuration list for PBXNativeTarget "Attention DeficitUITests" */;
+			buildConfigurationList = 08FBAF9B1C012896002FA5C0 /* Build configuration list for PBXNativeTarget "FocusUITests" */;
 			buildPhases = (
 				08FBAF881C012896002FA5C0 /* Sources */,
 				08FBAF891C012896002FA5C0 /* Frameworks */,
@@ -176,9 +251,9 @@
 			dependencies = (
 				08FBAF8E1C012896002FA5C0 /* PBXTargetDependency */,
 			);
-			name = "Attention DeficitUITests";
+			name = FocusUITests;
 			productName = "Attention DeficitUITests";
-			productReference = 08FBAF8C1C012896002FA5C0 /* Attention DeficitUITests.xctest */;
+			productReference = 08FBAF8C1C012896002FA5C0 /* Focus.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -204,7 +279,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 08FBAF681C012895002FA5C0 /* Build configuration list for PBXProject "Attention Deficit" */;
+			buildConfigurationList = 08FBAF681C012895002FA5C0 /* Build configuration list for PBXProject "Focus" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -215,21 +290,46 @@
 			mainGroup = 08FBAF641C012895002FA5C0;
 			productRefGroup = 08FBAF6E1C012895002FA5C0 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 08FBAF9F1C012F1F002FA5C0 /* Products */;
+					ProjectRef = 08FBAF9E1C012F1F002FA5C0 /* ResearchKit.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
-				08FBAF6C1C012895002FA5C0 /* Attention Deficit */,
-				08FBAF801C012896002FA5C0 /* Attention DeficitTests */,
-				08FBAF8B1C012896002FA5C0 /* Attention DeficitUITests */,
+				08FBAF6C1C012895002FA5C0 /* Focus */,
+				08FBAF801C012896002FA5C0 /* FocusTests */,
+				08FBAF8B1C012896002FA5C0 /* FocusUITests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		08FBAFA51C012F1F002FA5C0 /* ResearchKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ResearchKit.framework;
+			remoteRef = 08FBAFA41C012F1F002FA5C0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		08FBAFA71C012F1F002FA5C0 /* ResearchKitTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ResearchKitTests.xctest;
+			remoteRef = 08FBAFA61C012F1F002FA5C0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		08FBAF6B1C012895002FA5C0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08E6989F1C0BF84A008CAA32 /* green.jpeg in Resources */,
 				08FBAF7B1C012896002FA5C0 /* LaunchScreen.storyboard in Resources */,
+				086D63E81C06AE57005605DB /* railroads.jpg in Resources */,
 				08FBAF781C012896002FA5C0 /* Assets.xcassets in Resources */,
 				08FBAF761C012896002FA5C0 /* Main.storyboard in Resources */,
 			);
@@ -256,7 +356,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08A4F5161C0AB1B40054514F /* GoNoGoViewController.swift in Sources */,
 				08FBAF731C012896002FA5C0 /* ViewController.swift in Sources */,
+				08FBAFB01C01362B002FA5C0 /* ConsentTask.swift in Sources */,
+				086D63DF1C06622F005605DB /* SurveyTask.swift in Sources */,
+				086875051C076E7600BB1A8A /* MemoryTask.swift in Sources */,
+				08D1668C1C0C1F60006B3E75 /* TaskViewController.swift in Sources */,
+				08FBAFAE1C0130BF002FA5C0 /* ConsentDocument.swift in Sources */,
 				08FBAF711C012896002FA5C0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,13 +388,18 @@
 /* Begin PBXTargetDependency section */
 		08FBAF831C012896002FA5C0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 08FBAF6C1C012895002FA5C0 /* Attention Deficit */;
+			target = 08FBAF6C1C012895002FA5C0 /* Focus */;
 			targetProxy = 08FBAF821C012896002FA5C0 /* PBXContainerItemProxy */;
 		};
 		08FBAF8E1C012896002FA5C0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 08FBAF6C1C012895002FA5C0 /* Attention Deficit */;
+			target = 08FBAF6C1C012895002FA5C0 /* Focus */;
 			targetProxy = 08FBAF8D1C012896002FA5C0 /* PBXContainerItemProxy */;
+		};
+		08FBAFAB1C012F32002FA5C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ResearchKit;
+			targetProxy = 08FBAFAA1C012F32002FA5C0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -397,10 +508,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = "Attention Deficit/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Francesco-Perera.Attention-Deficit";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Focus;
 			};
 			name = Debug;
 		};
@@ -408,10 +521,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = "Attention Deficit/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Francesco-Perera.Attention-Deficit";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Focus;
 			};
 			name = Release;
 		};
@@ -422,8 +537,8 @@
 				INFOPLIST_FILE = "Attention DeficitTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Francesco-Perera.Attention-DeficitTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Attention Deficit.app/Attention Deficit";
+				PRODUCT_NAME = Focus;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Focus.app/Focus";
 			};
 			name = Debug;
 		};
@@ -434,8 +549,8 @@
 				INFOPLIST_FILE = "Attention DeficitTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Francesco-Perera.Attention-DeficitTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Attention Deficit.app/Attention Deficit";
+				PRODUCT_NAME = Focus;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Focus.app/Focus";
 			};
 			name = Release;
 		};
@@ -445,7 +560,7 @@
 				INFOPLIST_FILE = "Attention DeficitUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Francesco-Perera.Attention-DeficitUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Focus;
 				TEST_TARGET_NAME = "Attention Deficit";
 				USES_XCTRUNNER = YES;
 			};
@@ -457,7 +572,7 @@
 				INFOPLIST_FILE = "Attention DeficitUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Francesco-Perera.Attention-DeficitUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Focus;
 				TEST_TARGET_NAME = "Attention Deficit";
 				USES_XCTRUNNER = YES;
 			};
@@ -466,7 +581,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		08FBAF681C012895002FA5C0 /* Build configuration list for PBXProject "Attention Deficit" */ = {
+		08FBAF681C012895002FA5C0 /* Build configuration list for PBXProject "Focus" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				08FBAF931C012896002FA5C0 /* Debug */,
@@ -475,29 +590,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		08FBAF951C012896002FA5C0 /* Build configuration list for PBXNativeTarget "Attention Deficit" */ = {
+		08FBAF951C012896002FA5C0 /* Build configuration list for PBXNativeTarget "Focus" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				08FBAF961C012896002FA5C0 /* Debug */,
 				08FBAF971C012896002FA5C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		08FBAF981C012896002FA5C0 /* Build configuration list for PBXNativeTarget "Attention DeficitTests" */ = {
+		08FBAF981C012896002FA5C0 /* Build configuration list for PBXNativeTarget "FocusTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				08FBAF991C012896002FA5C0 /* Debug */,
 				08FBAF9A1C012896002FA5C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		08FBAF9B1C012896002FA5C0 /* Build configuration list for PBXNativeTarget "Attention DeficitUITests" */ = {
+		08FBAF9B1C012896002FA5C0 /* Build configuration list for PBXNativeTarget "FocusUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				08FBAF9C1C012896002FA5C0 /* Debug */,
 				08FBAF9D1C012896002FA5C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
