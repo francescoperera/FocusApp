@@ -16,6 +16,7 @@ class GoNoGoViewController: UIViewController {
     var colors : [UIColor]!
     var squareColor : UIColor!
     var counter = 0
+    var redCounter :Int!
     var counterTimer = NSTimer()
     var goNoGoButton = UIButton()
     var taskLabel = UILabel()
@@ -66,57 +67,102 @@ class GoNoGoViewController: UIViewController {
     }
     func startCounter(){
         counter = 0
+        self.redCounter  = Int(arc4random_uniform(UInt32(5)))
         counterTimer = NSTimer.scheduledTimerWithTimeInterval(1,target:self, selector:"counterMethod",userInfo:nil, repeats: true)
-        //counter+=1
+       print("blahadasdsd",redCounter)
     }
   
     func counterMethod(){
         if counter  == 0 {
             self.square.text = "Square 1"
             self.pointsLabel.text = String(self.points)
-            generateColor()
-            print("a")
+            if self.redCounter == counter{
+                self.coloredCue.backgroundColor = UIColor.redColor()
+                
+            }
+            else {
+                generateColor()
+                if self.coloredCue.backgroundColor != UIColor.redColor(){
+                    self.points+=25
+                }
+                
+            }
             counter+=1
+            print("a")
+            
         }
         else if counter == 1{
-            counter+=1
-        }
-        else if counter == 2{
             self.square.text = "Square 2"
             self.pointsLabel.text = String(self.points)
-            generateColor()
+            if self.redCounter == counter{
+                self.coloredCue.backgroundColor = UIColor.redColor()
+                
+            }
+            else {
+                generateColor()
+                if self.coloredCue.backgroundColor != UIColor.redColor(){
+                    self.points+=25
+                }
+                
+            }
             counter+=1
             print("b")
+            
         }
-        else if counter == 3{
-            counter+=1
-        }
-        else if counter == 4{
+        else if counter == 2{
             self.square.text = "Square 3"
             self.pointsLabel.text = String(self.points)
-            generateColor()
+            if self.redCounter == counter{
+                self.coloredCue.backgroundColor = UIColor.redColor()
+                
+            }
+            else {
+                generateColor()
+                if self.coloredCue.backgroundColor != UIColor.redColor(){
+                    self.points+=25
+                }
+                
+            }
             counter+=1
-            print("C")
+            print("c")
+            
         }
-        else if counter == 5{
-            counter+=1
-        }
-        else if counter == 6{
+        else if counter == 3{
             self.square.text = "Square 4"
             self.pointsLabel.text = String(self.points)
-            generateColor()
+            if self.redCounter == counter{
+                self.coloredCue.backgroundColor = UIColor.redColor()
+                
+            }
+            else {
+                generateColor()
+                if self.coloredCue.backgroundColor != UIColor.redColor(){
+                    self.points+=25
+                }
+                
+            }
             counter+=1
             print("d")
+            
         }
-        else if counter == 7{
-            counter+=1
-        }
-        else if counter == 8{
+        else if counter == 4{
             self.square.text = "Square 5"
             self.pointsLabel.text = String(self.points)
             generateColor()
+            if self.redCounter == counter{
+                self.coloredCue.backgroundColor = UIColor.redColor()
+                
+            }
+            else {
+                generateColor()
+                if self.coloredCue.backgroundColor != UIColor.redColor(){
+                    self.points+=25
+                }
+                
+            }
             counter+=1
-            print("e")
+            print("c")
+            
         }
         else{
             self.pointsLabel.text = String(self.points)
@@ -127,9 +173,9 @@ class GoNoGoViewController: UIViewController {
             self.square.removeFromSuperview()
             print("This is over ")
             print(self.points)
-        
+            
         }
-    
+
     }
     
     
